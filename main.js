@@ -72,7 +72,7 @@ function autoCommit(exclusiveTeacher, exclusiveLevel, exclusiveText) {
 		if (second === '0') {
 			console.info('ready to call toEvaluation()');
 			toEvaluation();
-			window.clearInterval(int)
+			window.clearInterval(int);
 			console.info('老师：' + teacher + ' 评教已经成功提交。');
 		}
 	}, 990);
